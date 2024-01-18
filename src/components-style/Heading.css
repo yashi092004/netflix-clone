@@ -1,0 +1,25 @@
+.heading{
+    color: rgb(220, 82, 82);
+    font-size: 1.8rem;
+    font-weight: 700;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+@media (max-width:500px){
+    .heading{
+        font-size: 1.4rem;
+        font-weight: 500;
+        padding-left: 2px;
+    }
+}
+@media (max-width:750px){
+    .heading{
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+}
